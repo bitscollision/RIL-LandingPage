@@ -1,0 +1,1116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+a {
+  color: #da6a1e;
+}
+
+a:focus {
+  color: #ffffff;
+  -webkit-text-decoration: underline --dark-color;
+  text-decoration: underline --dark-color;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #313131;
+}
+
+:focus {
+  outline: none;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+li {
+  width: 100%;
+}
+/* Ubuntu Fonts Added */
+
+/* @font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/Ubuntu-Bold.eot");
+  src: url("../fonts/Ubuntu-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Ubuntu-Bold.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Bold.woff") format("woff"),
+    url("../fonts/Ubuntu-Bold.ttf") format("truetype"),
+    url("../fonts//Ubuntu-Bold.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/Ubuntu-Light.eot");
+  src: url("../fonts/Ubuntu-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Ubuntu-Light.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Light.woff") format("woff"),
+    url("../fonts/Ubuntu-Light.ttf") format("truetype"),
+    url("../fonts//Ubuntu-Light.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/Ubuntu-Medium.eot");
+  src: url("../fonts/Ubuntu-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Ubuntu-Medium.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Medium.woff") format("woff"),
+    url("../fonts/Ubuntu-Medium.ttf") format("truetype"),
+    url("../fonts//Ubuntu-Medium.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/Ubuntu-Regular.eot");
+  src: url("../fonts/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Ubuntu-Regular.woff2") format("woff2"),
+    url("../fonts/Ubuntu-Regular.woff") format("woff"),
+    url("../fonts/Ubuntu-Regular.ttf") format("truetype"),
+    url("../fonts//Ubuntu-Regular.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+} */
+
+/* Mr Dafoe */
+@font-face {
+  font-family: "dafoe";
+  src: url("../fonts/MrDafoe-Regular.eot");
+  src: url("../fonts/MrDafoe-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MrDafoe-Regular.woff2") format("woff2"),
+    url("../fonts/MrDafoe-Regular.woff") format("woff"),
+    url("../fonts/MrDafoe-Regular.ttf") format("truetype"),
+    url("../fonts//MrDafoe-Regular.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-extralight-webfont.eot");
+  src: url("../fonts/poppins-extralight-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-extralight-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-extralight-webfont.woff") format("woff"),
+    url("../fonts/poppins-extralight-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-extralight-webfont.svg#poppinsextralight")
+      format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-thin-webfont.eot");
+  src: url("../fonts/poppins-thin-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-thin-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-thin-webfont.woff") format("woff"),
+    url("../fonts/poppins-thin-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-thin-webfont.svg#poppinsthin") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-light-webfont.eot");
+  src: url("../fonts/poppins-light-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-light-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-light-webfont.woff") format("woff"),
+    url("../fonts/poppins-light-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-light-webfont.svg#poppinslight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-regular-webfont.eot");
+  src: url("../fonts/poppins-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-regular-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-regular-webfont.woff") format("woff"),
+    url("../fonts/poppins-regular-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-regular-webfont.svg#poppinsregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-medium-webfont.eot");
+  src: url("../fonts/poppins-medium-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-medium-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-medium-webfont.woff") format("woff"),
+    url("../fonts/poppins-medium-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-medium-webfont.svg#poppinsmedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-semibold-webfont.eot");
+  src: url("../fonts/poppins-semibold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-semibold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-semibold-webfont.woff") format("woff"),
+    url("../fonts/poppins-semibold-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-semibold-webfont.svg#poppinssemibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-bold-webfont.eot");
+  src: url("../fonts/poppins-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-bold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-bold-webfont.woff") format("woff"),
+    url("../fonts/poppins-bold-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-bold-webfont.svg#poppinsbold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-extrabold-webfont.eot");
+  src: url("../fonts/poppins-extrabold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-extrabold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-extrabold-webfont.woff") format("woff"),
+    url("../fonts/poppins-extrabold-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-extrabold-webfont.svg#poppinsextrabold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/poppins-black-webfont.eot");
+  src: url("../fonts/poppins-black-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-black-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-black-webfont.woff") format("woff"),
+    url("../fonts/poppins-black-webfont.ttf") format("truetype"),
+    url("../fonts/poppins-black-webfont.svg#poppinsblack") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body.bg-from-ad .master-header {
+  cursor: default;
+}
+ul {
+  list-style: none;
+}
+/* Header Css Start */
+header {
+  width: 100%;
+  background-color: white;
+}
+nav {
+  font-family: "ubuntu";
+  height: 80px;
+}
+
+.nav-links ul {
+  margin: 0px;
+}
+header .header-wrap {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 50px;
+}
+
+.active {
+  color: #4116f7 !important;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header-right .nav-links ul {
+  display: flex;
+  gap: 39px;
+}
+.header-right .nav-links ul li a {
+  white-space: nowrap;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-md {
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4116f7;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+}
+.button-md:hover {
+  background-color: #2d04da;
+}
+.mobile-menu-icon{
+  display: none;
+}
+header.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+/* Header Css End */
+
+/* Banner Css Start */
+
+section.banner {
+  background-image: url("../images/banner-bg.png");
+  background-position: center;
+  background-size: 100%;
+  height: calc(100vh - 120px);
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+section.banner:after {
+  content: "";
+  background: linear-gradient(
+    180deg,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(254, 253, 253, 1) 100%
+  );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+section.banner .heading-wrap h1 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.heading-wrap span {
+  color: #4116F7;
+}
+section.banner .heading-wrap p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Banner Css End */
+
+/* How It works Section */
+section.how-it-works {
+  padding: 70px 0px;
+}
+.how-it-works .heading {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.heading h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.heading h5 {
+  color: #4116f7;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.heading p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+}
+
+.info-card {
+  background-color: #f8f8f8;
+  box-shadow: 0px 4px 10px 0px #0000001a;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 35px 20px;
+  border-radius: 15px;
+}
+
+.info-card h4 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.info-card .button-md {
+  margin-top: 40px;
+}
+
+/* How iT works Ends  */
+
+/* real state section starts here */
+.agent-img {
+  object-fit: contain;
+}
+
+.agent-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.description {
+  position: relative;
+}
+.description span {
+  color: #4116f7;
+}
+.description h1 {
+  color: #303A42;
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-span {
+  position: absolute;
+  font-family: 'dafoe';
+  top: -65px;
+  left: 15px;
+  color: #dbeeea !important;
+  font-size: 98px;
+  z-index: -1;
+  font-weight: 400;
+}
+.description p {
+  margin-right: 40px;
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #596168;
+}
+section.real-state {
+  padding: 70px 0;
+}
+
+.real-state .details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  margin-top: 50px;
+}
+.real-state .detail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.real-state .detail h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #000000;
+}
+
+.real-state .img-div {
+  min-height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  max-width: 80px;
+}
+.heading-md h2 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+/* real state section ends here */
+
+
+/* Customer Investment Pricing */
+
+
+
+
+
+
+.investment {
+  padding: 70px 0px;
+}
+
+.price-container {
+  background-color: #F8F8F8;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  padding: 5px;
+
+}
+
+.property-image {
+  position: relative;
+}
+
+.property-image img {
+  width: 100%;
+  height: auto;
+}
+
+.icon-location{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.price-container .price {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: #0000009C;
+  color: #F8F8F8;
+  padding: 2px 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 1px solid #F8F8F8;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: auto;
+  letter-spacing: -2%;
+  font-family: 'ubuntu';
+}
+
+.price-container .p-description {
+  padding: 0 5px;
+  margin-top: 12px;
+}
+
+
+.price-container .pricing{
+  display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      padding: 10px 5px;
+}
+
+.price-container .p-description p {
+  margin: 0;
+  font-size: 14;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 2%;
+  color: #9A9A9A;
+  font-family: 'ubuntu';
+
+}
+.price-container .price-div{
+  text-align: center;
+}
+
+.price-container .price-div p {
+  margin: 5px 0;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 9.19px;
+  color: #482EBD;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.price-container .p-description h4 {
+  margin: 5px 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: auto;
+  letter-spacing: -2%;
+  color: black;
+  font-family: 'ubuntu';
+}
+
+.price-container .income ,.price-container .cashflow ,.price-container .return{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -2%;
+  line-height: auto;
+  font-family: 'ubuntu';
+
+}
+
+
+.price-container .income {
+  color: #59A359;
+}
+
+.price-container .cashflow {
+  color: #D9453C;
+}
+
+.price-container .return {
+  color: #DA453D;
+}
+
+.button-div {
+  text-align: center;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: ; */
+}
+.price-container hr {
+  border: 1px solid #DADADA;
+  margin: 10px 13px 0px 13px;
+}
+.btn-lg {
+  background-color: #4116F7;
+  border-color: #6200ea;
+  color: #F8F8F8;
+  padding: 8px 70px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.price-container .img-heart{
+  position: relative;
+  border-radius: 50px;
+  border: 2px solid #4116F7;
+  max-width: 30px;
+  max-height: 30px;
+  min-height: 30px;
+  margin-right: 10px;
+}
+
+.price-container .img-heart img{
+  padding: 5px;
+  
+}
+/* Customer Investment Pricing Ends*/
+
+
+/* why-real-estate Starts*/
+
+section.why-real-estate {
+  padding: 70px 0;
+
+  
+}
+section.why-real-estate .container {
+  position: relative;
+}
+section.why-real-estate .container:before {
+  content: '';
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  border-radius: 110%;
+  left: 50%;
+  top: 60%;
+    background-image: radial-gradient(circle farthest-side at center, hsla(251, 93%, 53%, 0.11) 0%, hsl(0, 0%, 100%) 100%);;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+section.why-real-estate .description {
+  text-align: center;
+  margin-bottom: 30px;
+}
+section.why-real-estate .description span {
+  color: #4116F7;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+section.why-real-estate .description span:before {
+  content: '';
+  right: 10px;
+  position: relative;
+  height: 4px;
+  width: 35px;
+  border-radius: 15px;
+  display: block;
+  background: linear-gradient(214deg, rgb(65 22 247) -10%, rgb(76 175 80 / 0%) 81%);
+}
+section.why-real-estate .description span:after {
+  content: '';
+  content: '';
+  left: 10px;
+  position: relative;
+  height: 4px;
+  width: 35px;
+  border-radius: 15px;
+  display: block;
+  background: linear-gradient(330deg, rgb(76 175 80 / 0%) 20%, rgb(65 22 247) 100%);
+}
+
+section.why-real-estate .description p {
+  margin-top: 15px;
+  padding: 0 160px;
+  font-size: 18px;
+}
+.why-real-estate .investor-card {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 30px;
+  height: 300px;
+  margin-top: 50px;
+}
+.why-real-estate .investor-card .img-wrap {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  top: -30px;
+  position: relative;
+}
+.why-real-estate .investor-card h3 {
+  font-size: 23px;
+  font-weight: 500;
+  height: 60px;
+}
+.why-real-estate .investor-card p {
+  color: #596168;
+}
+
+/* why-real-estate Ends*/
+
+
+/* pricing-testimonial Starts*/
+
+section.pricing-testimonial {
+  padding: 70px 0;
+}
+
+.pricing-testimonial .heading {
+  text-align: center;
+}
+.pricing-testimonial .package-card {
+  border: 3px solid #EA4C89;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pricing-testimonial .package-card .on-sale-tag {
+  color: #EA4C89;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.pricing-testimonial .package-card h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.pricing-testimonial .package-card h5 + p {
+  color: #0D0C22;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.pricing-testimonial .package-card .price-wrap span.cut-price {
+  font-size: 24px;
+  color: #FF5555;
+  text-decoration: line-through;
+}
+.pricing-testimonial .package-card .price-wrap h3 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.pricing-testimonial .package-card .price-wrap p {
+  color: #3D3D4E;
+  font-size: 14px;
+  font-weight: 400;
+}
+.pricing-testimonial .package-card .discount-value {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 17px;
+}
+.pricing-testimonial .package-card .discount-value p {
+  color: #EA4C89;
+  padding: 10px 10px;
+  background-color: rgb(234 76 137 / 10%);
+  border-radius: 40px;
+}
+.pricing-testimonial .package-card .discount-value img {
+  width: 35px;
+}
+.pricing-testimonial .package-card .start-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 30px;
+}
+.pricing-testimonial .package-card ul {
+  padding: 0;
+}
+.pricing-testimonial .package-card ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.pricing-testimonial .package-card ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+.pricing-testimonial .testimonial-card {
+  background-color: #4116F7;
+  padding: 20px 30px;
+  border-radius: 10px;
+  height: 565px;
+}
+.pricing-testimonial .testimonial-card img {
+    width: 70px;
+    height: 70px;
+}
+
+.pricing-testimonial .testimonial-card img + p {
+  color: #fff;
+  padding-block: 70px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.pricing-testimonial .testimonial-card .person-detail {
+  color: #fff;
+}
+.pricing-testimonial .testimonial-card .person-detail h4 {
+  font-size: 18px;
+}
+.pricing-testimonial .testimonial-card .person-detail p {
+  font-weight: 300;
+}
+/* pricing-testimonial Ends*/
+
+/* FAQs Starts*/
+
+section.faqs {
+  padding: 70px 0;
+}
+.faqs .heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.accordion-item {
+  border: 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  box-shadow: none;
+  color: #4116f7;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.accordion-body {
+  padding-top: 0;
+  padding-right: 50px;
+  color: #303A42;
+}
+.accordion-button {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* FAQs Ends*/
+
+
+
+/* register Starts*/
+
+section.register {
+  padding: 0px 0;
+  background-color: #E9F4FF;
+}
+.register .description {
+  text-align: center;
+}
+
+.register .description h4 {
+  font-weight: 600;
+  font-size: 22px;
+}
+.register .description p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* register Starts*/
+
+
+footer {
+  background-color: #F5F5F5;
+  padding: 30px 0;
+}
+footer .footer-logo {
+  width: 200px;
+  margin-bottom: 40px;
+}
+footer .footer-btn a.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 230px;
+  padding: 10px 20px;
+  border: 2px solid #4116f7;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+footer .footer-btn a.btn img {
+  width: 16px;
+}
+footer .footer-btn a.btn:hover {
+  background-color: #e9f4ff;
+}
+ul.social-icons {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+ul.social-icons li {
+  width: 35px;
+}
+footer h4:after {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  height: 4px;
+  width: 30px;
+  background-color: #4116f7;
+}
+footer h4 {
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 45px;
+}
+footer ul.footer-links li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+footer ul.footer-links li {
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+footer ul.footer-links li a img {
+  width: 20px;
+}
+footer ul.footer-links.contact-us {
+  padding: 0;
+}
+ul.footer-links {
+  list-style: disc;
+}
+footer ul.footer-links li:before {
+  content: '';
+  height: 8px;
+  width: 8px;
+  background-color: #4116f7;
+  position: absolute;
+  left: -25px;
+  border-radius: 15px;
+}
+footer ul.footer-links.contact-us li:before {
+  display: none;
+}
+
+footer input {
+  width: 100%;
+  height: 45px;
+  border: 2px solid #4116f7;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Modal Css */
+.modal-header {
+  border-bottom: 0;
+}
+.property-modal .property-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.property-modal .property-name p:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+.property-modal .property-name p:last-child {
+  font-size: 20px;
+  font-weight: 600;
+  color: #5D5FED;
+}
+.property-modal .property-location {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-block: 3px;
+}
+.property-modal .property-location img {
+    width: 10px;
+}
+.property-modal .location-space .location-specs + img {
+  width: 25px;
+}
+.property-modal .location-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.property-modal .location-specs ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+}
+.property-modal .location-specs ul li {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 4px;
+}
+.property-modal .nav.nav-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.property-modal .nav.nav-tabs li.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.property-modal .nav.nav-tabs li.nav-item .nav-link {
+  background-color: #f9f9f9;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+  margin: 0 !important;
+  color: #000;
+}
+.property-modal .nav.nav-tabs li.nav-item:last-child .nav-link {
+  border-radius: 0 10px 10px 0;
+}
+.property-modal .nav.nav-tabs li.nav-item .nav-link.active {
+  width: 100%;
+  background-color: #5F61F6;
+  color: #fff !important;
+  border-radius: 8px 0 0 8px;
+  margin: 0 !important;
+  border: 1px solid #5F61F6;
+}
+.property-modal .nav.nav-tabs li.nav-item:last-child .nav-link.active {
+  border-radius: 0px 8px 8px 0;
+}
+.tab-wrap {
+  background-color: #F8F9FA;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+  margin-top: 20px;
+}
+.tab-wrap p.title {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+  color: #5F61F6;
+}
+.tab-wrap .strap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+.tab-wrap .strap p {
+  font-size: 14px;
+}
+.tab-wrap .strap span {
+  font-weight: 500;
+}
+
+.tab-wrap .strap.total-expenses {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 7px 0;
+  margin-top: 5px;
+}
+.tab-wrap span.green,
+.tab-wrap span.green {
+  color: #6DAF63;
+  font-size: 18px;
+}
+.tab-wrap span.red,
+.tab-wrap span.red {
+  color: #ED5F59;
+  font-size: 18px;
+}
+.tab-wrap .strap.small {
+  font-size: 14px;
+}
+.tab-wrap .strap.small p {
+  font-size: 14px;
+  padding-left: 20px;
+}
